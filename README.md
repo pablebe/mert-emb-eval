@@ -12,7 +12,7 @@ This script calculates various objective metrics for separated audio files.
 
 **Metrics:**
 - **MERT-v1-95M-MSE**: Mean Squared Error in the MERT embedding space.
-- **FADMERT-v1-95M**: Frechet Audio Distance using MERT embeddings.
+- **FADMERT-v1-95M**: An intrusive variant of Frechet Audio Distance using MERT embeddings.
 - **SI-SDR**, **SI-SIR**, **SI-SAR**: Scale-Invariant Signal-to-Distortion/Interference/Artifact Ratios.
 - **WAV-MSE**: Mean Squared Error in the waveform domain.
 - **SPEC-MSE**: Mean Squared Error in the magnitude spectrogram domain.
