@@ -1,0 +1,10 @@
+audio
+
+*.csv
+*.pyc
+*.tex
+*.png
+*.pdf
+*.pt
+*.pth
+*.out
