@@ -13,7 +13,7 @@ This script calculates various objective metrics for separated audio files.
 **Metrics:**
 - **MERT-v1-95M-MSE**: Mean Squared Error in the MERT embedding space.
 - **FADMERT-v1-95M**: An intrusive variant of Frechet Audio Distance using MERT embeddings.
-- **SI-SDR**, **SI-SIR**, **SI-SAR**: Scale-Invariant Signal-to-Distortion/Interference/Artifact Ratios.
+- **SDR**, **SI-SDR**, **SI-SIR**, **SI-SAR**: Signal-to-Distortion Ratio and Scale-Invariant Signal-to-Distortion/Interference/Artifact Ratios.
 - **WAV-MSE**: Mean Squared Error in the waveform domain.
 - **SPEC-MSE**: Mean Squared Error in the magnitude spectrogram domain.
 
@@ -99,7 +99,7 @@ If running `corr_metrics_and_ratings.py`, you need the listener response CSV. A 
 If you use the datasets or code evaluated in this work, please consider citing the following papers:
 
 ### DAGA 2026 paper
-
+Reference to DAGA paper will be added soon!
 
 ### GenSVS Dataset
 ```bibtex
